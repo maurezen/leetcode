@@ -13,6 +13,9 @@ fun main() {
     println(nums.contentToString())
 }
 
+/**
+ * https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+ */
 fun removeDuplicates(nums: IntArray): Int {
     var index = 0
     var duplicates = 0
